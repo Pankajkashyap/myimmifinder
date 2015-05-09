@@ -1,0 +1,30 @@
+[04-May-2015 11:23:07 Australia/Canberra] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Pradesh' at line 1' in /home/playm694/public_html/myimmifinder/config/services.php:50
+Stack trace:
+#0 /home/playm694/public_html/myimmifinder/config/services.php(50): PDO->query('SELECT * FROM l...')
+#1 /home/playm694/public_html/myimmifinder/search.php(319): services->getStateName('Andhra Pradesh')
+#2 {main}
+  thrown in /home/playm694/public_html/myimmifinder/config/services.php on line 50
+[04-May-2015 11:24:42 Australia/Canberra] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Pradesh' at line 1' in /home/playm694/public_html/myimmifinder/config/services.php:50
+Stack trace:
+#0 /home/playm694/public_html/myimmifinder/config/services.php(50): PDO->query('SELECT * FROM l...')
+#1 /home/playm694/public_html/myimmifinder/search.php(319): services->getStateName('Andhra Pradesh')
+#2 {main}
+  thrown in /home/playm694/public_html/myimmifinder/config/services.php on line 50
+[04-May-2015 11:27:21 Australia/Canberra] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Pradesh' at line 1' in /home/playm694/public_html/myimmifinder/config/services.php:50
+Stack trace:
+#0 /home/playm694/public_html/myimmifinder/config/services.php(50): PDO->query('SELECT * FROM l...')
+#1 /home/playm694/public_html/myimmifinder/search.php(319): services->getStateName('Andhra Pradesh')
+#2 {main}
+  thrown in /home/playm694/public_html/myimmifinder/config/services.php on line 50
+[04-May-2015 11:28:59 Australia/Canberra] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Pradesh' at line 1' in /home/playm694/public_html/myimmifinder/config/services.php:50
+Stack trace:
+#0 /home/playm694/public_html/myimmifinder/config/services.php(50): PDO->query('SELECT * FROM l...')
+#1 /home/playm694/public_html/myimmifinder/search.php(319): services->getStateName('Andhra Pradesh')
+#2 {main}
+  thrown in /home/playm694/public_html/myimmifinder/config/services.php on line 50
+[04-May-2015 18:59:38 Australia/Canberra] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/playm694/public_html/myimmifinder/config/services.php:71
+Stack trace:
+#0 /home/playm694/public_html/myimmifinder/config/services.php(71): PDO->query('SELECT * FROM l...')
+#1 /home/playm694/public_html/myimmifinder/ajax.php(8): services->getstatesbystateid('')
+#2 {main}
+  thrown in /home/playm694/public_html/myimmifinder/config/services.php on line 71
